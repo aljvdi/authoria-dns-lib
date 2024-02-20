@@ -1,0 +1,26 @@
+{
+    "name": "aljm/authoria-dns-lib",
+    "description": "A PHP library to interact with your authoria dns instance.",
+    "type": "library",
+    "require": {
+        "php": ">=8.2",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "11.1.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Javadi\\Authoria\\Dns\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex Javadi",
+            "email": "alex@aljm.org"
+        }
+    ],
+    "minimum-stability": "dev"
+}
