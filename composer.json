@@ -1,5 +1,5 @@
 {
-    "name": "aljm/authoria-dns-lib",
+    "name": "javadi/authoria-dns-lib",
     "description": "A PHP library to interact with your authoria dns instance.",
     "type": "library",
     "require": {
